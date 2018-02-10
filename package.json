@@ -1,0 +1,30 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "Mongo Database and Scraper Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daballard1127/MongoScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daballard1127/MongoScraper/issues"
+  },
+  "homepage": "https://github.com/daballard1127/MongoScraper#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.3",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
