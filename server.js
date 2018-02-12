@@ -26,6 +26,7 @@ app.use(express.static("public"));
 
 mongoose.Promise = Promise;
 mongoose.connect("mongodb://localhost/webscraper");
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/webscraper";
 
 app.get("/", function(req, res) {
   res.send("Hello World");
